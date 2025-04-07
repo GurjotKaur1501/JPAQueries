@@ -1,6 +1,13 @@
 package com.example;
 
-import javax.persistence.*;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.NoResultException;
+import jakarta.persistence.Persistence;
+import se.yrgo.Author;
+import se.yrgo.Book;
+import se.yrgo.Reader;
+
 import java.util.List;
 
 public class MainApp {
