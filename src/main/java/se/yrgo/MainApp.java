@@ -1,4 +1,4 @@
-package se.yrgo;
+package com.example;
 
 import javax.persistence.*;
 import java.util.List;
